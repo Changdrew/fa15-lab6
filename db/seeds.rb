@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 %w(Bulbasaur Charmander Squirtle Abra Magikarp).each do |name|
-  Pokemon.create name: name, level: rand(2..50), description: 'A pokemon!'
+  Pokemon.create name: name, level: rand(2..50), description: 'A pokemon!', user_id: 1
 end
 
 %w(Ash Gary Misty Brock).each do |name|
